@@ -24,27 +24,21 @@ namespace mvcCore5._0.Controllers
         public IActionResult Index()
         {
             
-                List<Product> products = _context.Products.ToList();
-                return View(products);
+            List<Product> products = _context.Products.ToList();
+            return View(products);
         }
         [HttpGet]
-        public JsonResult LoadShippers()
+        public JsonResult LoadLists()
         {
-            try
-            {
-                var resp= Json(_context.Shippers.Select(x => new
-                {
-                    ShipperId = x.ShipperId,
-                    CompanyName = x.CompanyName
-                }).ToList());
-                var jsonString = JsonSerializer.Serialize(resp);
-                return Json(jsonString, System.Web.Mvc.JsonRequestBehavior.AllowGet);
-            }
-            catch (Exception e)
-            {
-                throw;
-            }
             
+            var resp= Json(_context.Shippers.Select(x => new
+            {
+                ShipperId = x.ShipperId,
+                CompanyName = x.CompanyName
+            }).ToList());
+            var data = resp.Value;
+            //var data = JsonSerializer.Serialize(resp).ToList();
+            return Json(new { data= data });//JsonRequestBehavior.AllowGet
         }
     }
     

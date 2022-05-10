@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/ux9qsUnDsqCVuiEk1+BsRFTJa/qnf94lMRBLsgwocBROzS549CXSIKSABf7JFzJD21JlkHG2DTOwGVEX4kJVg==",
+  "dgSpecHash": "87XbMX/4S0A0IpaKdIVZsRYDT0zgKVDEsuiykYAXPScXgz9LI1/Swvjv9uWUI30gXWrabZV8wR3vQ85p8S9y3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\56959\\source\\repos\\mvcCore5.0\\mvcCore5.0\\mvcCore5.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\56959\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\56959\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.8\\microsoft.aspnet.mvc.5.2.8.nupkg.sha512",
-    "C:\\Users\\56959\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.8\\microsoft.aspnet.razor.3.2.8.nupkg.sha512",
-    "C:\\Users\\56959\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.8\\microsoft.aspnet.webpages.3.2.8.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.16\\microsoft.aspnetcore.mvc.razor.extensions.5.0.16.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.16\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.16.nupkg.sha512",
@@ -59,7 +56,6 @@
     "C:\\Users\\56959\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\5.0.2\\microsoft.visualstudio.web.codegeneration.templating.5.0.2.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\5.0.2\\microsoft.visualstudio.web.codegeneration.utils.5.0.2.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
-    "C:\\Users\\56959\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
@@ -173,46 +169,5 @@
     "C:\\Users\\56959\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\56959\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"Microsoft.AspNet.Mvc 5.2.8\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "Microsoft.AspNet.Mvc",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"Microsoft.AspNet.Razor 3.2.8\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "Microsoft.AspNet.Razor",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"Microsoft.AspNet.WebPages 3.2.8\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "Microsoft.AspNet.WebPages",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"Microsoft.Web.Infrastructure 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "Microsoft.Web.Infrastructure",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -6,25 +6,24 @@ $(document).ready(function () {
         ddlShippers.empty().append('<option selected="selected" value="0" disabled="disabled">loading...</option> ');
         $.ajax({
             type: "GET",
-            url: "Product/LoadShippers",
-            //data: '{}',
+            url: "Product/LoadLists",
+            data: '{}',
             contentType: "application/json; charset=utf-8",
             dataType: "json",
-            success: function (response) {
-                console.log("sucess");
-                console.log("response "+response);
-                console.log("response.d"+response.data);
-                ddlShippers.empty().append('<option selected="selected" value="0">Please select</option>');
-                var s = '<option value="-1">Please Select a wea</option>';
-                for (var i = 0; i < response.length; i++) {
-                    s += '<option value="' + response[i].ShipperId + '">' + response[i].CompanyName + '</option>';
-                }
-                $("#shippers").html(s);
-                //$("#departmentsDropdown").html(s);
-                //$.each(data.d, function () {
-                    
-                //    ddlShippers.append($("<option     />").val(this.KeyName).text(this.ValueName));
-                //});
+            success: function (data) {
+                console.log("sucess" + data);
+                
+                
+                //var s = '<option value="-1">Please Select a shipper</option>';
+                //for (var i = 0; i < data.ShipperId.length; i++) {
+                //    s += '<option value="' + data[i].ShipperId + '">' + data[i].CompanyName + '</option>';
+                //}
+                //$("#ddlShippers").html(s);
+                //ddlShippers.empty().append('<option selected="selected" value="0">Please select</option>');
+                
+            }, error: function (xhr, ajaxOptions, thrownError) {
+                console.log(xhr.status+"+");
+                console.log(thrownError);
             }
         });
 

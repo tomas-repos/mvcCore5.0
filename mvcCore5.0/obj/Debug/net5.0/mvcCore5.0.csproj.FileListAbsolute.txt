@@ -436,11 +436,5 @@ C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\Razor\Pages\_
 C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\Razor\Views\Category\CreateCategory.cshtml.g.cs
 C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\Razor\Views\Product\CreateProduct.cshtml.g.cs
 C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\Razor\Views\Product\create.cshtml.g.cs
-C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\bin\Debug\net5.0\System.Web.Mvc.dll
-C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\bin\Debug\net5.0\System.Web.Razor.dll
-C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\bin\Debug\net5.0\System.Web.Helpers.dll
-C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
-C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
-C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\bin\Debug\net5.0\System.Web.WebPages.dll
-C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
 C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\mvcCore5.0.csproj.AssemblyReference.cache
+C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\Razor\Views\Shared\View.cshtml.g.cs

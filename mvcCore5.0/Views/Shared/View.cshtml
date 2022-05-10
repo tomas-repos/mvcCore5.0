@@ -1,0 +1,24 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model mvcCore5._0.Models.ProductSupplierCategory
+
+    <div class="form-group">
+        <div class="d-flex align-items-start bg-light mb-3" style="height: 100px;">
+            <form asp-action="create" >
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="@Model.Categories." class="custom-control-label"></label>
+                    <input asp-for="Categories" class="form-control" />
+                    <span asp-validation-for="Categories" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Suppliers" class="custom-control-label"></label>
+                    <input asp-for="Suppliers" class="form-control" />
+                    <span asp-validation-for="Suppliers" class="text-danger"></span>
+                </div>
+                
+            </form>
+        </div>
+    </div>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 #nullable disable
@@ -40,5 +41,6 @@ namespace mvcCore5._0.Models
         [ForeignKey(nameof(SupplierId))]
         [InverseProperty("Products")]
         public virtual Supplier Supplier { get; set; }
+        
     }
 }

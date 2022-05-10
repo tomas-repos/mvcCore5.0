@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>@ViewData["Title"] - Mantenedor -</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 
+
+    <link href="~/css/jquery.dataTables.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+
 
 </head>
 <body>
@@ -34,12 +37,11 @@
             @RenderBody()
         </main>
     </div>
-    
-    @*<script src="~/lib/jquery/dist/jquery.js"></script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@
-    
 
+    <script src="~/js/jquery-3.5.1.js"></script>
+    <script src="~/js/jquery.dataTables.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
