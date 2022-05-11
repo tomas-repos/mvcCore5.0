@@ -1,0 +1,63 @@
+﻿<div class="modal fade" data-backdrop="static" id="modalProducto" tabindex="-1" aria-labelledby="modalProductoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-lg-down">
+        <div class="modal-content" style="width:134%; height:134%">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalProductoLabel">New Product!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body  form-control " style="height:500px">
+                <div class="form-group">
+                    <div class="d-flex align-items-start bg-light mb-3" style="height: 100px;">
+                        <div class="form-group  col-md-4">
+                            <label class="form-label">Product Name</label>
+                            <input type="text" id="ProductName">
+                        </div>
+                        <div class="form-group  col-md-4">
+                            <label class="form-label">Quantity per unit</label>
+                            <input type="text" id="quantityPerUnit">
+                        </div>
+                        <div class="form-group col-md-4" form-check ">
+                            <label class="form-label">Unit Price</label>
+                            <input type="text" id="UnitPrice">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="form-group">
+                    <div class="d-flex align-items-start bg-light mb-3" style="height: 100px;">
+
+
+                        <div class="mb-3 col-md-4" form-check">
+                            <label class="form-label">Units In Order</label>
+                            <input type="text" id="UnitsInOrder">
+                        </div>
+                        <div class="mb-3 col-md-4" form-check">
+                            <label class="form-label">Reorder Level</label>
+                            <input type="text" id="Reorder Level">
+                        </div>
+                        <div class="mb-3 col-md-4" form-check">
+                            <label class="form-label">Product Name</label>
+                            <input type="text" id="ProductName">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="d-flex align-items-start bg-light mb-3" style="height: 100px;">
+
+                        @*aca tienen q ir los select odropwodnaskjbdka tuhermana*@
+                        <div class="mb-3 col-md-3">
+                            <label class="form-label">Unit In Stock</label>
+                            <input type="number" id="UnitInStock">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="btnCancel" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="btnSaveProduct">Save Product</button>
+            </div>
+        </div>
+    </div>
+</div>

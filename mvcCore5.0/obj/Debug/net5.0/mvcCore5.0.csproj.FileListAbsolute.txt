@@ -438,3 +438,4 @@ C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\Razor\Views\P
 C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\Razor\Views\Product\create.cshtml.g.cs
 C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\mvcCore5.0.csproj.AssemblyReference.cache
 C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\Razor\Views\Shared\View.cshtml.g.cs
+C:\Users\56959\source\repos\mvcCore5.0\mvcCore5.0\obj\Debug\net5.0\Razor\Views\Product\CreatePopUp.cshtml.g.cs

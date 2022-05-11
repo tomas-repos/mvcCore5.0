@@ -23,9 +23,14 @@ namespace mvcCore5._0.Controllers
         }
         public IActionResult Index()
         {
-            
+
             List<Product> products = _context.Products.ToList();
             return View(products);
+        }
+        public ActionResult CreatePopUp()
+        {
+
+            return PartialView();
         }
         [HttpGet]
         public JsonResult LoadLists()
