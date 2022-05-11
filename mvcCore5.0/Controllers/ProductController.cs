@@ -29,7 +29,6 @@ namespace mvcCore5._0.Controllers
         }
         public ActionResult CreatePopUp()
         {
-
             return PartialView();
         }
         [HttpGet]
